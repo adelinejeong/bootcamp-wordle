@@ -1,0 +1,20 @@
+header {
+    margin-top: 10px;
+    border-bottom: 1px solid #BEBEBF;
+    padding-bottom: 10px;
+}
+
+.header-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header-icon img {
+    width: 30px;
+}
