@@ -4,7 +4,11 @@ main {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding-top: 20px;
+}
+
+#timer {
+    font-size: large;
+    font-weight: bold;
 }
 
 .board-row {
@@ -21,5 +25,6 @@ main {
     border: 3px solid #d3d6da;
     width: 60px;
     height: 60px;
-
+    font-size: 30px;
+    font-weight: bold;
 }

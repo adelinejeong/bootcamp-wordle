@@ -1,20 +1,30 @@
 header {
-    margin-top: 10px;
-    border-bottom: 1px solid #BEBEBF;
-    padding-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    width: 98vw;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-column {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
+}
+
+.header-icon {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
 }
 
 .header-title {
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.header-icon img {
-    width: 30px;
+    padding-left: 5%;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: "Playfair Display", serif;
 }
